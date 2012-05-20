@@ -30,7 +30,7 @@ namespace Composite.Component1.Controllers
                                   numberOfThings = 3
                                 }
                 }
-            });
+            }, JsonRequestBehavior.AllowGet);
         }
     }
 }
