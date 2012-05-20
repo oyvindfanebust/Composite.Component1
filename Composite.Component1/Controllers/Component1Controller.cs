@@ -32,5 +32,10 @@ namespace Composite.Component1.Controllers
                 }
             }, JsonRequestBehavior.AllowGet);
         }
+
+        public ActionResult UpdateThingOwners(dynamic thingOwners)
+        {
+            return new HttpStatusCodeResult(200);
+        }
     }
 }
